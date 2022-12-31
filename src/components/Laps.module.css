@@ -1,0 +1,11 @@
+.laps {
+  list-style: none;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.laps li {
+  background-color: rgb(38, 100, 155);
+  margin: 5px;
+  padding: 1rem;
+}

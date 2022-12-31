@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  margin-top: 5rem;
+}
+
+.main button {
+  background-color: aqua;
+  border: none;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  font-size: 1rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.main button:hover {
+  background-color: rgb(134, 189, 189);
+  cursor: pointer;
+}
+
+@media (max-width: 310px) {
+  .main {
+    flex-direction: column;
+  }
+}

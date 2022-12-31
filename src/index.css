@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  background-color: rgb(20, 131, 131);
+  max-width: 50rem;
+  margin: 2rem auto;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0 10px;
+}
+
+@media (max-width: 455px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 55%;
+  }
+}
